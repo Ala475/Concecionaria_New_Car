@@ -1,0 +1,286 @@
+@import url(all.css);
+@import url(bootstrap.css);
+@import url(sweetalert2.css);
+
+nav {
+	overflow-y: auto;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: inherit;
+}
+
+.fixed-top {
+	position: fixed;
+	top: 0;
+}
+
+footer {
+	margin-top: 30px;
+	padding: 10px;
+	background-color: #eec396;
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.list-group-item {
+	background-color: inherit;
+}
+
+.form-gris {
+	background-color: #d5d5d5;
+}
+
+.form-gris:focus {
+	background-color: #d5d5d5;
+	border-color: #3b6a7a;
+	box-shadow: 0 0 0 0.25rem rgba(200, 227, 209, 0.85);
+}
+
+.form-gris:focus {
+	background-color: #d5d5d5;
+	box-shadow: 0 0 0 0.25rem rgba(200, 227, 209, 0.85);
+}
+
+.btn-enviar {
+	padding: 5px auto;
+	background-color: #6eae84;
+	color: #ecf5ef;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.btn-enviar:hover {
+	background-color: rgba(110, 174, 132, 0.85);
+	border-color: #428f5c;
+}
+
+.form-check-1:focus {
+	border-color: rgb(70, 81, 133);
+	box-shadow: 0 0 0 0.25rem rgba(70, 81, 133, 0.5);
+}
+
+.form-check-1:checked {
+	background-color: #6e77a2;
+	border-color: #465185;
+}
+
+#verificacion {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 100000;
+}
+
+.notif {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #eec396;
+}
+
+.btn-conf {
+	padding: 5px auto;
+	background-color: #6e77a2;
+	color: #c6cbdd;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.btn-conf:hover {
+	background-color: rgba(110, 119, 162, 0.85);
+	border-color: #465185;
+}
+
+.btn-ver {
+	padding: 5px auto;
+	background-color: #6e77a2;
+	color: white;
+	text-align: center;
+}
+
+.btn-ver:hover {
+	background-color: rgba(110, 119, 162, 0.85);
+	border-color: #465185;
+}
+
+.btn-down {
+	padding: 5px auto;
+	background-color: #608795;
+	color: white;
+	text-align: center;
+}
+
+.btn-down:hover {
+	background-color: rgba(96, 135, 149, 0.85);
+	border-color: #3b6a7a;
+}
+/*         */
+/* SISTEMA */
+/*         */
+.bg-c1 {
+	background-color: #8dabb5;
+}
+.bg-c1_3 {
+	background-color: #608795;
+}
+.contenedor {
+	width: 100%;
+}
+.sidebar {
+	width: 250px;
+	background-color: #7b7979;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	transition: all 0.3s;
+	color: white;
+	margin-left: -250px;
+	padding: 1rem 1rem 30px 1rem;
+}
+.title {
+	font-size: 1.5em;
+	color: white;
+}
+.sidebar.m-active {
+	margin-left: 0px;
+}
+.bg-g {
+	background-color: #474646;
+	color: white;
+}
+.bg-g2 {
+	background-color: #7b7979;
+}
+nav ul li a.btn {
+	width: 100%;
+	color: white;
+	text-align: left;
+	border-bottom: 1px solid white;
+}
+nav ul li a.btn:hover {
+	background-color: #aea9a9;
+	color: black;
+}
+.sub-list {
+	margin-left: 50px;
+}
+.sub-list a:hover {
+	border-bottom: 0.5px solid white;
+}
+.main {
+	margin-left: 0px;
+	transition: all 0.3s;
+}
+
+.m-active {
+	margin-left: 250px;
+}
+
+.m-tira {
+	margin-top: 50px;
+}
+#logo-login {
+	width: 35%;
+	max-width: 175px;
+}
+#tira {
+	margin-left: 0;
+	transition: all 0.3s;
+}
+
+.btn.btn-sub {
+	background-color: #465185;
+	color: white;
+}
+
+.btn.btn-sub:hover {
+	background-color: #6e77a2;
+	color: white;
+}
+
+.link-blanco:hover {
+	color: black;
+}
+.btn-submit{
+	background-color: #428f5c;
+	color: white;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.btn-submit:hover{
+	background-color: #9ccaab;
+}
+.btn-limpiar{
+	background-color: #c36a5a;
+	color: white;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.btn-limpiar:hover{
+	background-color: #ffcec4;
+}
+
+
+/* PARA CAMBIAR EL DISEÑO DEL SCROLL */
+nav::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+
+nav::-webkit-scrollbar:vertical {
+	width: 9px;
+}
+
+nav::-webkit-scrollbar-thumb {
+	background-color: #7b7979;
+	border-radius: 20px;
+	border: 2px solid #aea9a9;
+}
+
+@media (max-width: 768px) {
+	#tira.m-active {
+		margin-left: 250px;
+	}
+	.sidebar.m-active {
+		margin-left: 0px;
+		z-index: 999;
+	}
+	.fondo-nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 998;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+
+@media (min-width: 768px) {
+	.main {
+		margin-left: 250px;
+	}
+	.sidebar {
+		margin-left: 0px;
+	}
+	#tira {
+		margin-left: 250px;
+	}
+}
